@@ -1,0 +1,16 @@
+{
+  "author": "",
+  "name": "audiokit-server",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {
+    "hapi": "~8.8.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
