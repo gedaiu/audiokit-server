@@ -2,7 +2,7 @@ var Hapi = require('hapi');
 var devices = require('./devices');
 
 var server = new Hapi.Server();
-server.connection({ port: 8080 });
+server.connection({ port: 8080, routes: { cors: true } });
 
 server.start(function () {
     console.log('Server running at:', server.info.uri);
